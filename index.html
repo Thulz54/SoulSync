@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoulSync - MVP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>SoulSync - Users</h1>
+
+  <div>
+    <h2>Add User</h2>
+    <input type="text" id="name" placeholder="Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <label>
+      Faith Mode:
+      <input type="checkbox" id="faith_mode">
+    </label>
+    <button id="addUserBtn">Add User</button>
+  </div>
+
+  <div>
+    <h2>All Users</h2>
+    <button id="getUsersBtn">Load Users</button>
+    <ul id="usersList"></ul>
+  </div>
